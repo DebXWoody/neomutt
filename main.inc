@@ -22,17 +22,21 @@
  * - Robust
  *
  * Libraries:
- * - libconn - @ref conn
- * - libemail - @ref email
- * - libhcache - @ref hc_hcache
- * - libimap - @ref imap_imap
- * - libmaildir - @ref maildir
- * - libmbox - @ref mbox
- * - libmutt - @ref mutt
- * - libncrypt - @ref ncrypt
- * - libnntp - @ref nntp
- * - libnotmuch - @ref notmuch
- * - libpop - @ref pop
+ *
+ * | Library    | Description    |
+ * | :--------- | :------------- |
+ * | libconfig  | @ref config    |
+ * | libconn    | @ref conn      |
+ * | libemail   | @ref email     |
+ * | libhcache  | @ref hc_hcache |
+ * | libimap    | @ref imap_imap |
+ * | libmaildir | @ref maildir   |
+ * | libmbox    | @ref mbox      |
+ * | libmutt    | @ref mutt      |
+ * | libncrypt  | @ref ncrypt    |
+ * | libnntp    | @ref nntp      |
+ * | libnotmuch | @ref notmuch   |
+ * | libpop     | @ref pop       |
  *
  * ## Building these Docs
  *
