@@ -5050,7 +5050,7 @@ static int gpgme_send_menu(struct Header *msg, int is_smime)
     {
       /* L10N: S/MIME options (opportunistic encryption is on) */
       prompt =
-          _("S/MIME (s)ign, sign (a)s, (p)gp, (c)lear, or (o)ppenc mode off? ");
+          _("S/MIME (s)ign, sign (a)s, (p)gp, (c)lear, or (o)ppenc mode off?");
       /* L10N: S/MIME options (opportunistic encryption is on) */
       letters = _("sapco");
       choices = "SapCo";
@@ -5059,7 +5059,7 @@ static int gpgme_send_menu(struct Header *msg, int is_smime)
     {
       /* L10N: PGP options (opportunistic encryption is on) */
       prompt =
-          _("PGP (s)ign, sign (a)s, s/(m)ime, (c)lear, or (o)ppenc mode off? ");
+          _("PGP (s)ign, sign (a)s, s/(m)ime, (c)lear, or (o)ppenc mode off?");
       /* L10N: PGP options (opportunistic encryption is on) */
       letters = _("samco");
       choices = "SamCo";
@@ -5072,7 +5072,7 @@ static int gpgme_send_menu(struct Header *msg, int is_smime)
     {
       /* L10N: S/MIME options (opportunistic encryption is off) */
       prompt = _("S/MIME (e)ncrypt, (s)ign, sign (a)s, (b)oth, (p)gp, (c)lear, "
-                 "or (o)ppenc mode? ");
+                 "or (o)ppenc mode?");
       /* L10N: S/MIME options (opportunistic encryption is off) */
       letters = _("esabpco");
       choices = "esabpcO";
@@ -5081,7 +5081,7 @@ static int gpgme_send_menu(struct Header *msg, int is_smime)
     {
       /* L10N: PGP options (opportunistic encryption is off) */
       prompt = _("PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, s/(m)ime, (c)lear, "
-                 "or (o)ppenc mode? ");
+                 "or (o)ppenc mode?");
       /* L10N: PGP options (opportunistic encryption is off) */
       letters = _("esabmco");
       choices = "esabmcO";
@@ -5094,7 +5094,7 @@ static int gpgme_send_menu(struct Header *msg, int is_smime)
     {
       /* L10N: S/MIME options */
       prompt =
-          _("S/MIME (e)ncrypt, (s)ign, sign (a)s, (b)oth, (p)gp or (c)lear? ");
+          _("S/MIME (e)ncrypt, (s)ign, sign (a)s, (b)oth, (p)gp or (c)lear?");
       /* L10N: S/MIME options */
       letters = _("esabpc");
       choices = "esabpc";
@@ -5103,7 +5103,7 @@ static int gpgme_send_menu(struct Header *msg, int is_smime)
     {
       /* L10N: PGP options */
       prompt =
-          _("PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, s/(m)ime or (c)lear? ");
+          _("PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, s/(m)ime or (c)lear?");
       /* L10N: PGP options */
       letters = _("esabmc");
       choices = "esabmc";

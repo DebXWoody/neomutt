@@ -1850,7 +1850,7 @@ int pgp_class_send_menu(struct Header *msg)
       snprintf(promptbuf, sizeof(promptbuf),
                /* L10N: PGP options (inline) (opportunistic encryption is on) */
                _("PGP (s)ign, sign (a)s, %s format, (c)lear, or (o)ppenc mode "
-                 "off? "),
+                 "off?"),
                mime_inline);
       prompt = promptbuf;
       /* L10N: PGP options (inline) (opportunistic encryption is on)
@@ -1861,7 +1861,7 @@ int pgp_class_send_menu(struct Header *msg)
     else
     {
       /* L10N: PGP options (opportunistic encryption is on) */
-      prompt = _("PGP (s)ign, sign (a)s, (c)lear, or (o)ppenc mode off? ");
+      prompt = _("PGP (s)ign, sign (a)s, (c)lear, or (o)ppenc mode off?");
       /* L10N: PGP options (opportunistic encryption is on) */
       letters = _("saco");
       choices = "SaCo";
@@ -1880,7 +1880,7 @@ int pgp_class_send_menu(struct Header *msg)
       snprintf(promptbuf, sizeof(promptbuf),
                /* L10N: PGP options (inline) (opportunistic encryption is off) */
                _("PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, %s format, "
-                 "(c)lear, or (o)ppenc mode? "),
+                 "(c)lear, or (o)ppenc mode?"),
                mime_inline);
       prompt = promptbuf;
       /* L10N: PGP options (inline) (opportunistic encryption is off)
@@ -1892,7 +1892,7 @@ int pgp_class_send_menu(struct Header *msg)
     {
       /* L10N: PGP options (opportunistic encryption is off) */
       prompt = _("PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, (c)lear, or "
-                 "(o)ppenc mode? ");
+                 "(o)ppenc mode?");
       /* L10N: PGP options (opportunistic encryption is off) */
       letters = _("esabco");
       choices = "esabcO";
@@ -1906,7 +1906,7 @@ int pgp_class_send_menu(struct Header *msg)
       snprintf(promptbuf, sizeof(promptbuf),
                /* L10N: PGP options (inline) */
                _("PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, %s format, or "
-                 "(c)lear? "),
+                 "(c)lear?"),
                mime_inline);
       prompt = promptbuf;
       /* L10N: PGP options (inline)
@@ -1917,7 +1917,7 @@ int pgp_class_send_menu(struct Header *msg)
     else
     {
       /* L10N: PGP options */
-      prompt = _("PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, or (c)lear? ");
+      prompt = _("PGP (e)ncrypt, (s)ign, sign (a)s, (b)oth, or (c)lear?");
       /* L10N: PGP options */
       letters = _("esabc");
       choices = "esabc";
